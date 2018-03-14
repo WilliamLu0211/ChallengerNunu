@@ -26,7 +26,7 @@ For each size we took the average time from running 100 trials.
 
 ### Results
 ##### Graph of Runtime vs Array Size
-![Runtime vs Size graph](/path/to/graph.jpg?raw=true "Runtime vs Array Size")
+![Runtime vs Size graph](/relative/path/to/graph.jpg?raw=true "Runtime vs Array Size")
 
 ### Conclusions
 When we graphed the data, the graph considerably resembled a horizontally dilated graph of nlogn.
