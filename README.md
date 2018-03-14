@@ -1,6 +1,7 @@
-# ChallengerNunu
-Team Name: Runmin (William) Lu, Max Millar, Andrew Shao
-Title
+Team ChallengerNunu - William Lu, Max Millar, Andrew Shao
+APCS2 pd2
+L01: What Does the Data Say?
+2018-03-15 R
 
 ### Hypothesis
 QuickSort's Big-Oh runtime classification is O(n) = nlogn.
