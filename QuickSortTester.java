@@ -15,10 +15,19 @@ public class QuickSortTester{
             sum = 0;
             for (int j = 0; j < 100; j ++){
                 
+                // Random
                 arr = QuickSort.buildArray(i, 99999);
-		/*arr = new int[i];
-		for (int k = 0; k < i; k ++)
-		arr[k] = k;*/
+                
+                /* // Sorted
+                arr = new int[i];
+                for (int k = 0; k < i; k ++)
+                    arr[k] = k; */
+                
+                /* // Reversely Sorted
+                arr = new int[i];
+                for (int k = 0; k < i; k ++)
+                    arr[k] = i - k; */
+                
                 start = System.nanoTime();
                 QuickSort.qsort(arr);
                 end = System.nanoTime();
