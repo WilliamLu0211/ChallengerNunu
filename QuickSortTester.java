@@ -15,7 +15,7 @@ public class QuickSortTester{
             sum = 0;
             for (int j = 0; j < 100; j ++){
                 
-                arr = QuickSortTester.buildArray(i, 99999);
+                arr = QuickSort.buildArray(i, 99999);
                 start = System.nanoTime();
                 QuickSort.qsort(arr);
                 end = System.nanoTime();
