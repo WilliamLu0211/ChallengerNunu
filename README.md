@@ -25,8 +25,7 @@ We tested arrays of size 100 to 10000, incrementing by 100 each time.
 For each size we took the average time from running 100 trials.
 
 ### Results
-##### Graph of Runtime vs Array Size
-![Runtime vs Size graph](/graph.jpg?raw=true)
+![Runtime vs Size graph](/graph.jpg?raw=true "Graph of Runtime vs Array Size")
 
 ### Conclusions
 When we graphed the data, the graph considerably resembled a horizontally dilated graph of nlogn.
