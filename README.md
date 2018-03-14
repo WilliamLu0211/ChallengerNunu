@@ -9,7 +9,7 @@ QuickSort's Big-Oh runtime classification is O(n) = nlogn.
 QuickSort is an array sorting algorithm developed by British computer scientist Tony Hoare in 1959.
 QuickSort works by recursively dividing the array into smaller sub arrays to be individually sorted.
 
-#####How it works:
+##### How it works:
 1.	Take the first element as a "pivot" element.
 2.	Partition the array such that all other values less than the pivot element 
 	are to the left of the pivot element and all values greater than the pivot element 
