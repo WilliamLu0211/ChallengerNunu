@@ -7,7 +7,10 @@ L01: What Does the Data Say?
 2018-03-15 R
 
 ### Hypothesis
-QuickSort's Big-Oh runtime classification is O(n) = nlogn.
+QuickSort's Big-Oh runtime classifications are:
+-	O(n) = nlogn in the best case
+-	O(n) = nlogn in the average case
+-	O(n) = n^2 in the worst case
 
 ### Background
 QuickSort is an array sorting algorithm developed by British computer scientist Tony Hoare in 1959.
@@ -24,7 +27,11 @@ QuickSort works by recursively dividing the array into smaller sub arrays to be 
 ### Experiment Methodology
 To accurately evaluate the runtime categorization of QuickSort,
 we measured the execution times for running our Java implementation of QuickSort
- on arrays of varying sizes and with randomly generated values.
+ on arrays of varying sizes and with varying values.
+We tested the best, average, and worse cases for QuickSort.
+-	Best case: values in array are randomly generated.
+-	Average case: values in array are already sorted ascendingly.
+-	Worst case: values in array are already sorted descendingly. 
 We tested arrays of size 100 to 10000, incrementing by 100 each time.
 For each size we took the average time from running 100 trials.
 
@@ -32,9 +39,7 @@ For each size we took the average time from running 100 trials.
 ![Runtime vs Size graph](/graph.jpg?raw=true "Graph of Runtime vs Array Size")
 
 ### Conclusions
-When we graphed the data, the graph considerably resembled a horizontally dilated graph of nlogn.
-From this we concluded that our hypothesis that QuickSort's big-Oh notation was nlogn was very likely
-to be true. 
-While our graph does also somewhat resemble that of a linear function, we think that this may just be 
-due to the inherent discrepencies and inaccuracies that come with testing with randomness involved and 
-measuring very small values.
+When we graphed the data, the graphs for the best and average cases 
+both resembled horizontally dilated nlogn graphs.
+Our graph for the worst case resembled a horizontally dilated n^2 graphs.
+From this we concluded that our hypothesis was correct.
