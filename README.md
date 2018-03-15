@@ -42,6 +42,6 @@ For each size we took the average time from running 100 trials.
 ### Conclusions
 When we graphed the data, the graphs for the best and average cases 
 both resembled horizontally dilated nlogn graphs, where the best case was more stretched out and flat.
-Our graph for the worst case resembled a horizontally dilated n^2 graphs.
+Our graph for the worst case resembled a horizontally dilated n^2 graph.
 
 From this we concluded that our hypothesis was correct.
