@@ -32,6 +32,7 @@ We tested the best, average, and worse cases for QuickSort.
 -	Best case: values in array are randomly generated.
 -	Average case: values in array are already sorted ascendingly.
 -	Worst case: values in array are already sorted descendingly. 
+
 We tested arrays of size 100 to 10000, incrementing by 100 each time.
 For each size we took the average time from running 100 trials.
 
