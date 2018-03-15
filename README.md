@@ -8,9 +8,9 @@ L01: What Does the Data Say?
 
 ### Hypothesis
 QuickSort's Big-Oh runtime classifications are:
--	O(n) = nlogn in the best case
--	O(n) = nlogn in the average case
--	O(n) = n^2 in the worst case
+Best Case: Already Sorted O(n)
+Average Case: Reversely Sorted O(n)
+Worst Case: Randomly Sorted O(nlogn)
 
 ### Background
 QuickSort is an array sorting algorithm developed by British computer scientist Tony Hoare in 1959.
